@@ -22,7 +22,7 @@ jobs:
       - name: Set up Node.js (16 or 20)
         uses: actions/setup-node@v3
         with:
-          node-version: '20' # Установите '16' или '20' в зависимости от ваших требований
+          node-version: '16' # Установите '16' или '20' в зависимости от ваших требований
       - name: Install Dependencies
         run: npm install
       - name: Build And Deploy
